@@ -1,0 +1,60 @@
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Corrida Maluca</title>
+  </head>
+
+  <body>
+    <header></header>
+    <div id="container">
+      <h1 style="color: black;">Vroom Vroom</h1>
+      <h3 style="color:  black">Escolha o número de voltas!</h3>
+      <div>
+        <input class="botao" type="button" onclick="executaCorridaButton(10)" value="Corrida Rápida (10 voltas)" />
+        <input class="botao" type="button" onclick="executaCorridaButton(160)" value="Enduro (160 voltas)" />
+        <input class="botao" type="button" onclick="executaCorridaButton(70)" value="Grande Prêmio (70 voltas)" />
+
+      </div>
+      <div>
+        <input id="voltas" type="number" />
+        <input class="botao" type="button" onclick="executaCorrida()" value="Correr!" />
+      </div>
+      <div>
+        <img width="300px;" height="150px;" src="sally.jpg" />
+        <img width="300px;" height="150px;" src="barao.jfif" />
+        <img width="300px;" height="150px;" src="vigar.jpg" />
+      </div>
+    </div>
+    <div id="titles">
+      <div>
+        <p>Edna E-girl</p>
+        <p>Velocidade Máxima: 220km/h</p>
+        <p>Velocidade Mínima: 180km/h</p>
+        <p>Taxa de derrapagem: 1%</p>
+      </div>
+      <div>
+        <p>Juca Relampago Marquinhos</p>
+        <p>Velocidade Máxima: 260km/h</p>
+        <p>Velocidade Mínima: 120km/h</p>
+        <p>Taxa de derrapagem: 1%</p>
+      </div>
+      <div>
+        <p>Pedro Reizinho</p>
+        <p>Velocidade Máxima: 230km/h</p>
+        <p>Velocidade Máxima: 150km/h</p>
+        <p>Taxa de derrapagem: 1%</p>
+      </div>
+      
+    </div>
+    <div id="voltasvencidas"></div>
+    <h2 style="color: gold;" id="resultado"></h2>
+    <p> graphic <span style="color:gold">design</span><span style="color:orange"> is</span><span style="color:rgb(234, 75, 17)"> my</span><span style="color: red"> passion</span></p>
+
+  </body>
+  
+  <script src="for.js"></script>
+
+</html>

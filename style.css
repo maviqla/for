@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+body {
+     margin: 0;
+     padding: 0;
+     background-image: url(racing.webp);
+     background-size: cover;
+     background-repeat: no-repeat;
+     color: yellow;
+     font-family: 'Racing Sans One', cursive;
+     letter-spacing: 3px;
+ }
+ 
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+ p {
+     font-size: 22px;
+ }
+
+ #container {
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+   row-gap: 20px;
+ }
+
+
+#titles {
+   display: flex;
+    justify-content:space-evenly
+}
+
+#resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#voltasvencidas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+}
+
+#graphicfooter {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.botao {
+    background-color: red;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 22px;
+    padding: 20px;
+}
+
+#voltas {
+    background-color: yellow;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 22px;
+    padding: 20px;
+}
